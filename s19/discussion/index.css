@@ -1,0 +1,66 @@
+#logo{
+    font-family: Montserrat;
+	font-size: 16px !important;
+	font-weight: 700 !important;
+	line-height: 24px !important;
+	color: rgba(0, 51, 99, 1) !important;
+
+}
+
+ul a{
+	 font-family: Montserrat;
+	font-size: 16px !important;
+	font-weight: 700 !important;
+	line-height: 24px !important;
+	color: rgba(0, 78, 132, 1) !important;
+}
+
+nav{
+	background: rgba(255, 255, 255, 1) !important;
+}
+
+#title{
+	font-family: Montserrat;
+	font-size: 68px !important;
+	font-weight: 700 !important;
+	line-height: 84px !important;
+	text-align: center !important;
+	color: #FFFFFF;
+	margin-bottom: 5rem !important;
+    margin-top: 6rem !important;
+}
+
+#base{
+	text-decoration: none;
+	width: Hug 171px;
+	height: Hug 40px;
+	top: 621.19px;
+	left: 754px;
+	padding: 8px 24px 8px 24px;
+	gap: 8px;
+	border-radius: 2px 0px 0px 0px;
+	opacity: 0px;
+    background: rgba(18, 198, 255, 1);
+    font-family: Montserrat !important;
+	font-size: 16px !important;
+	font-weight: 800 !important;
+	line-height: 24px !important;
+	text-align: center !important;
+	color: rgba(255, 255, 255, 1) !important;
+}
+
+#landing{
+	background-image: linear-gradient(rgba(0, 34, 65, 0.61), rgba(0, 34, 65, 0.61)), url("./images/image 6.png");
+}
+
+
+
+
+
+
+
+
+
+
+
+
