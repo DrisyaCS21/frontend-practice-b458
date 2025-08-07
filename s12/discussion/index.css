@@ -1,0 +1,196 @@
+/* in block u can change the dimension by targeting the width and height */
+/* block can be changes into inline by using display:inline funstion */
+#div-3{
+	background-color: skyblue;
+	border: 2px solid black;
+	height: 200px;
+	width: 200px;
+}
+
+#div-4{
+	background-color: pink;
+	border: 2px solid black;
+	height: 200px;
+	width: 200px;
+}
+
+/* for inline u cant alter dimension */
+/*also we can change inline into block by display: block funstion*/
+#span-3{
+	background-color: burlywood;
+	border: 2px solid black;
+	height: 200px;
+	width: 200px;
+}
+
+#span-4{
+	background-color: beige;
+	border: 2px solid black;
+	height: 200px;
+	width: 200px;
+}
+
+#span-5{
+	background-color: greenyellow;
+	border: 2px solid black;
+	display: inline-block;
+	height: 300px;
+	width: 300px;
+}
+
+#span-6{
+	background-color: lightgoldenrodyellow;
+	border: 2px solid black;
+	display: inline-block;
+	height: 300px;
+	width: 300px;
+}
+
+#div-5{
+	background-color: purple;
+	display: inline-block;
+	border: 2px solid black;
+	height: 300px;
+	width: 300px;
+}
+
+#div-6{
+	background-color: mediumspringgreen;
+	display: inline-block;
+	border: 2px solid black;
+	height: 300px;
+	width: 300px;
+}
+
+/* summary:
+
+    -display:inline allows us to  display an element as inline. which means that the element will be displated side by side. however, we cannot change its dimension s and margin top and bottom.
+
+    -display: block allows us to display element as block. which means that by default the element occupies the whoole witdth of the page or its parents we can change the margin  and dimension however the elements are displayed on top of one another,
+
+    -display inline-block it is like the combination  of both wherein we can display elements side by side and still be able to change its dimesnion.
+*/
+
+#div-7{
+	background-color: aquamarine;
+	border: 2px solid black;
+
+}
+
+#div-8{
+	background-color: lightcyan;
+	border: 2px solid black;
+	display: none;
+}
+
+#span-7{
+	background-color: lightcoral;
+	border: 2px solid black;
+	display: none;
+}
+
+/*To add color border and margin to box class*/
+.box{
+	background-color: red;
+	border: 1px solid black;
+	margin: 5px;
+}
+
+.fifty-percent{
+	width: 50%;
+}
+
+.one-hundred-pixels{
+	width: 100px;
+}
+
+.parent{
+	width: 135px;
+	border: 2px solid black;
+}
+
+/*focus on width*/
+.fifty-vw{
+	width: 50vw;
+}
+
+/*focus on the height*/
+.twenty-five-vh{
+	height: 25vh;
+}
+
+/* summary
+-vw is useful for creating full width elements (100%) that fill up the entire viewport width. of course, u can use any percentage of viewport to achieve other goal, such as 50 for half of thw width etc. 
+
+-vh is useful for creating full higt elements (100%) that fill up the entire viewports height.
+*/
+
+.one-rem{
+	font-size: 1rem;
+}
+
+.one-em{
+	font-size: 1em;
+}
+
+.two-rem{
+	font-size: 2rem;
+}
+
+.two-em{
+	font-size: 2em;
+}
+
+/*pecent can also be used in font size and it will work like an em*/
+/* '1em=100%' '2em=200%' */
+.two-hundred-percent{
+	font-size: 200%;
+}
+
+/* Css background properties */
+.background{
+      min-height: 100vh;
+     /* can use hexcode,rgb,rgba     */
+     /* background-color: gray;*/
+     background-image: url(https://i.pinimg.com/736x/a3/cd/99/a3cd99fca3a719168c55bd8411cf9e71.jpg);
+     /*  values for bg-repeat: repeat, no-repeat, repeat-x, repeat-y, space, round; */
+     background-repeat: no-repeat;
+     background-size: 100%;
+     background-position: center top;
+     background-attachment: fixed;
+
+}
+
+.bg-title{
+	color: white;
+	text-align: center;
+	font-size: 5em;
+	margin: 0;
+	line-height: 35rem;
+}
+
+.container-bg{
+	background-color: rgba(0, 0, 0, 0.5);
+	min-height: 100vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
