@@ -1,0 +1,92 @@
+/* CSS RESET RULE */
+/* browser have diff default padding and margin */
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* google font */
+body{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+nav ul{
+	padding: 0.8rem;
+	margin-bottom: 2rem;
+	border-bottom: 1px solid gray;
+	list-style-type: none;
+}
+
+nav .nav, nav .nav-logo{
+     display: inline;
+     margin: 0.5rem;
+}
+
+#intro{
+
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 2rem;
+	padding-bottom: 3rem;
+	text-align: center;
+}
+
+.header{
+	text-align: center;
+	margin-bottom: 1rem;
+}
+
+#intro h2, #intro p{
+	margin-bottom: 1rem;
+}
+
+#intro button{
+	color: white;
+	background-color: #c2195b ;
+	font-weight: bold;
+	font-size: 1rem;
+	border-radius: 25px;
+	padding: 0.5rem;
+}
+
+#succeed-info{
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 2rem;
+	padding-bottom: 3rem;
+}
+
+.card h3{
+	text-align: center;
+	margin-bottom: 1rem;
+}
+
+#succeed-info .card{
+	display: inline-block;
+	width: 30%;
+	margin-left: 0.5rem;
+	margin-right: 0.5rem;
+	min-height: 175px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
