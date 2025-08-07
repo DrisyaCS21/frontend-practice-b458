@@ -1,0 +1,123 @@
+/*
+   syntax for adding CSS rule:
+   Selector{
+	   Property: value;
+	   Property: value;
+
+   }
+
+
+*/
+
+/* Type selector */
+/* tag name */
+h1{
+   /* color property changes of text */
+/*  important priritizes the specified rule  */
+	color: green !important;
+}
+
+/* universal selector */
+/* *is the symbol used for uni selector and used to target all elements */
+*{
+	font-size: 2opx;
+	font-family: "courier New", monospace;
+}
+
+/*id selectot*/
+/*#id-name*/
+#zuitt-motto{
+/* letter-spacing property changes the spaces between the characters in the text	*/
+    letter-spacing: 5px;
+}
+
+/*Class selector*/
+/* .  */
+.offering-item{
+/* text-transform changes font to a certain case 	*/
+	text-transform: uppercase;
+}
+
+/* id selector have the highest priority for all selectors */
+/* id selector > */
+h3{
+	letter-spacing: 25px;
+}
+
+/* selector combinators  */
+/* adjacent sibling selector */
+
+h3 + img{
+/* height property changes the vertical dimensions of an element*/
+/*width chnages the horizontal dimension of element */
+/*border-radius chnges the corner of an element*/
+
+	height: 300px;
+	width: 300px;
+	border-radius: 150px;
+}
+
+body{
+	background: pink;
+}
+
+/*Descendant selector*/
+#bootcamp-learning-list li{
+	color: blue;
+}
+
+/* general sibling selector */
+
+h2 ~ a{
+/*	text-decoration changes lines includes in text (like overline, underline and atrike through.)*/
+/*the value none remove the underline from the anchor elemnts,or tag.*/
+	text-decoration: none;
+}
+
+.modules{
+	letter-spacing: 3px;
+
+}
+
+body{
+/* bg-color changes the bg color of an element.	*/
+	background-color: skyblue;
+}
+
+nav{
+	background-color: white;
+}
+
+html{
+/* scroll behavior changes the scrolling behaviour when clicking the anchor tag.	*/
+	scroll-behavior: smooth;
+}
+
+section{
+	height: 100vh;
+	text-align: center;
+}
+
+ol{
+	list-style-type: none;
+	padding: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
