@@ -1,0 +1,97 @@
+	/* CSS reset rule */
+	*{
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+	}
+
+	/*target the image*/
+	/* Default value of float property is none. */
+	/* none, left, right, inherit */
+    /* css float property allows elements to be positioned within their parent container	*/
+   /*Inherit valur, inherits the float property of its parent element*/
+	.img-float{
+	         height: 250px;
+	         width: 250px;
+	         float: inherit;
+	    }
+
+	 .parent-element{
+	 	background-color: skyblue;
+	 	padding: 10px;
+	 	height: 50vh;
+	 	position: relative;
+	 }
+
+	 .child-one{
+	 	background-color: gray;
+	 	padding: 10px;
+
+	 	position: static;
+	 	
+	 }
+
+	 .child-two{
+	 	background-color: yellow;
+	 	padding: 10px;
+
+	 	position: sticky;
+	 	left: 50px;
+	 	bottom: 10px;
+
+	 }
+
+	 .child-three{
+	 	background-color: green;
+	 	padding: 10px;
+	 }
+
+	 html{
+	 	height: 800vh;
+	 }
+
+	 .container{
+	 	position: relative;
+	 }
+
+	 .black-box{
+	 	position: relative;
+	 	border: 2px solid black;
+	 	height: 100px;
+	 	margin: 30px;
+	 	z-index: 2;
+	 }
+
+     .gray-box{
+     	position: absolute;
+     	background-color: lightgrey;
+     	height: 60px;
+     	width: 70%;
+     	left: 50px;
+     	top: 50px;
+     	z-index: 1;
+     }
+
+     .green-box{
+            position: absolute;
+            background-color: lightgreen;
+            width: 35%;
+            height: 100px;
+            left:270px;
+            top: -15px;
+            z-index: 3;
+     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+     
