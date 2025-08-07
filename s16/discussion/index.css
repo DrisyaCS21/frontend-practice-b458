@@ -1,0 +1,67 @@
+/*CSS reset rule*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/*Bootstrap font*/
+body{
+	font-family: "Helvetica Neue" , sans-serif;
+}
+
+.text-center{
+	text-align: center;
+}
+
+/*height 25%*/
+.h-25{
+	height: 25%;
+}
+
+.p-3{
+	padding: 1rem;
+}
+
+.bg-secondary{
+	background-color: lightslategray;
+}
+
+.bg-success{
+	background-color: forestgreen;
+}
+
+.bg-warning{
+	background-color: orange;
+}
+
+.bg-danger{
+	background-color: darkred;
+}
+
+/*default direction of flex is a row*/
+.d-flex{
+    display: flex;
+}
+
+/*justify-content-center*/
+/*it will allows us to manipulate the positioning of ekements horizontally*/
+.justify-content-center{
+	justify-content: center;
+}
+
+/*align-items-center*/
+.align-items-center{
+	align-items: center;
+}
+
+/*flex-column*/
+.flex-column{
+	flex-direction: column;
+}
+
+.flex-column-reverse{
+	flex-direction: column-reverse;
+}
+
+
